@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b93c531a-7439-4d9d-abe4-f45157ae7498" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/bsuir/implementation/task2/GraphArea.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/bsuir/test/task2/GraphAreaTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/implementation/task1/MathFunction.java" afterPath="$PROJECT_DIR$/src/by/bsuir/implementation/task1/MathFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/implementation/task2/GraphArea.java" afterPath="$PROJECT_DIR$/src/by/bsuir/implementation/task2/GraphArea.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/test/task1/MathFunctionTest.java" afterPath="$PROJECT_DIR$/src/by/bsuir/test/task1/MathFunctionTest.java" />
     </list>
     <ignored path="WT.Lab1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,18 +29,18 @@
       <file leaf-file-name="MathFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsuir/implementation/task1/MathFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathFunctionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MathFunctionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/bsuir/test/task1/MathFunctionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="435">
+              <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphArea.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GraphArea.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsuir/implementation/task2/GraphArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -124,10 +124,10 @@
         <option value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/experimental/theories/suppliers/TestedOn.class" />
         <option value="$PROJECT_DIR$/src/by/bsuir/implementation/task2/FieldBelonging.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/implementation/task2/Area.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/test/task1/MathFunctionTest.java" />
-        <option value="$PROJECT_DIR$/src/by/bsuir/implementation/task1/MathFunction.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/test/task2/GraphAreaTest.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/implementation/task2/GraphArea.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/implementation/task1/MathFunction.java" />
+        <option value="$PROJECT_DIR$/src/by/bsuir/test/task1/MathFunctionTest.java" />
       </list>
     </option>
   </component>
@@ -329,7 +329,7 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GraphAreaTest">
+  <component name="RunManager" selected="JUnit.by.bsuir.test in WT.Lab1">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="by.bsuir.task1.MathFunction" />
@@ -413,6 +413,32 @@
       <option name="MAIN_CLASS_NAME" value="by.bsuir.test.task2.GraphAreaTest" />
       <option name="METHOD_NAME" value="testPointInArea" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="by.bsuir.test in WT.Lab1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.bsuir.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WT.Lab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.bsuir.test" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -817,17 +843,19 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MathFunctionTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.GraphAreaTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.GraphAreaTest.testPointInArea" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.by.bsuir.test in WT.Lab1" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GraphAreaTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GraphAreaTest.testPointInArea" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MathFunctionTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.by.bsuir.test in WT.Lab1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GraphAreaTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphAreaTest.testPointInArea" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MathFunctionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -846,14 +874,11 @@
       <updated>1473917774808</updated>
       <workItem from="1473917776539" duration="12967000" />
       <workItem from="1473963464588" duration="12000" />
-      <workItem from="1473963553768" duration="4515000" />
+      <workItem from="1473963553768" duration="4643000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphAreaTest - 2016.09.15 at 23h 27m 47s.xml">
-      <configuration name="GraphAreaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GraphAreaTest - 2016.09.15 at 23h 31m 22s.xml">
       <configuration name="GraphAreaTest" configurationId="JUnit" />
     </history-entry>
@@ -881,13 +906,16 @@
     <history-entry file="GraphAreaTest_testPointInArea - 2016.09.15 at 23h 31m 00s.xml">
       <configuration name="GraphAreaTest.testPointInArea" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="by_bsuir_test_in_WT_Lab1 - 2016.09.15 at 23h 44m 40s.xml">
+      <configuration name="by.bsuir.test in WT.Lab1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17494000" />
+    <option name="totallyTimeSpent" value="17622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -896,7 +924,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -998,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/implementation/task1/MathFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/test/task2/GraphAreaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1024,21 +1044,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/test/task1/MathFunctionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/implementation/task1/MathFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/implementation/task2/GraphArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/test/task1/MathFunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -34,7 +34,7 @@ public class MathFunctionTest {
     @Test
     public void testCountingCorrectness() {
         for (TestData testingData : countingCorrectnessTestData) {
-            double actualResult = MathFunction.count(testingData.passingX, testingData.passingY);
+            double actualResult = MathFunction.computeValue(testingData.passingX, testingData.passingY);
             assertTrue(Math.abs(testingData.expectingData - actualResult) < 0.000001);
         }
     }
