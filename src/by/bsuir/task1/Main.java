@@ -1,4 +1,4 @@
-package by.bsuir.implementation.task1;
+package by.bsuir.task1;
 
 public class Main {
 

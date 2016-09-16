@@ -1,6 +1,5 @@
-package by.bsuir.test.task1;
+package by.bsuir.task1;
 
-import by.bsuir.implementation.task1.MathFunction;
 import org.junit.Test;
 
 import java.util.Arrays;

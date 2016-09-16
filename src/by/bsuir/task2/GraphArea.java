@@ -1,4 +1,4 @@
-package by.bsuir.implementation.task2;
+package by.bsuir.task2;
 
 public class GraphArea {
 

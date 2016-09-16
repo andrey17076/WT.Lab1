@@ -1,4 +1,4 @@
-package by.bsuir.implementation.task3;
+package by.bsuir.task3;
 
 import java.util.LinkedHashMap;
 
