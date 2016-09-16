@@ -1,5 +1,7 @@
 package by.bsuir.task4;
 
+import by.bsuir.helpers.ListHelper;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -19,7 +21,7 @@ public class Main {
             if (isPrime(array[i]))
                 indexes.add(i);
         }
-        return toArray(indexes);
+        return ListHelper.toArray(indexes);
     }
 
     private static boolean isPrime(int number)
@@ -33,13 +35,5 @@ public class Main {
             result = (number % i != 0);
         }
         return result;
-    }
-
-    private static int[] toArray(ArrayList<Integer> list) {
-        int[] array = new int[list.size()];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = list.get(i);
-        }
-        return array;
     }
 }

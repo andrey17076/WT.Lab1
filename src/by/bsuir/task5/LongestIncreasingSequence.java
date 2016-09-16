@@ -4,7 +4,7 @@ class LongestIncreasingSequence {
 
     static int getMinimalAmountOfRemovingElementsToObtain(int[] array) {
         int[] lis = getInitializedLISValues(array.length);
-        int sequenceLength = findMaxValue(countOpimizedLISValues(array, lis));
+        int sequenceLength = findMaxValue(countOptimizedLISValues(array, lis));
         return array.length - sequenceLength;
     }
 
@@ -15,7 +15,7 @@ class LongestIncreasingSequence {
         return lis;
     }
 
-    private static int[] countOpimizedLISValues(int[] array, int[] lis) {
+    private static int[] countOptimizedLISValues(int[] array, int[] lis) {
         for (int i = 1; i < array.length; i++ )
             for (int j = 0; j < i; j++ )
                 if ( array[i] > array[j] && lis[i] < lis[j] + 1)
@@ -24,7 +24,7 @@ class LongestIncreasingSequence {
     }
 
     private static int findMaxValue(int[] array) {
-        int max = array[0];
+        int max = 0;
         for (int element : array)
             if (element > max)
                 max = element;
