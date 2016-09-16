@@ -1,40 +1,46 @@
 package by.bsuir.task1;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
+@RunWith(Parameterized.class)
 public class MathFunctionTest {
 
-    private class TestData {
-        double passingX, passingY, expectingData;
+    private static final double DELTA = 0.000001;
+    private double passingX;
+    private double passingY;
+    private double expectingData;
 
-        TestData(double passingX, double passingY, double expectingData) {
-            this.passingX = passingX;
-            this.passingY = passingY;
-            this.expectingData = expectingData;
-        }
+    public MathFunctionTest(double passingX, double passingY, double expectingData) {
+        this.passingX = passingX;
+        this.passingY = passingY;
+        this.expectingData = expectingData;
     }
 
-    private final List<TestData> countingCorrectnessTestData = Arrays.asList(
-            new TestData(0.0, 0.0, 0.5),
-            new TestData(1.0, -1.0, 1.5),
-            new TestData(0.0, 1.0, 0.854037),
-            new TestData(1.0, 0.0, 1.569358),
-            new TestData(1.0, 1.0, 1.913411),
-            new TestData(2.5, 1.9, 2.944411),
-            new TestData(-123.0, -9.0, -122.991977),
-            new TestData(4321.0, 1234.0, 4321.000319)
-    );
+    @Parameters
+    public static List<Double[]> computingCorrectnessTestData() {
+        return Arrays.asList(new Double[][]{
+                {0.0, 0.0, 0.5},
+                {1.0, -1.0, 1.5},
+                {0.0, 1.0, 0.854037},
+                {1.0, 0.0, 1.569358},
+                {1.0, 1.0, 1.913411},
+                {2.5, 1.9, 2.944411},
+                {-123.0, -9.0, -122.991977},
+                {4321.0, 1234.0, 4321.000319}
+        });
+    }
 
     @Test
-    public void testCountingCorrectness() {
-        for (TestData testingData : countingCorrectnessTestData) {
-            double actualResult = MathFunction.computeValue(testingData.passingX, testingData.passingY);
-            assertTrue(Math.abs(testingData.expectingData - actualResult) < 0.000001);
-        }
+    public void testComputingCorrectness() {
+        double actualResult = MathFunction.computeValue(passingX, passingY);
+        assertEquals(expectingData, actualResult, DELTA);
     }
 }
