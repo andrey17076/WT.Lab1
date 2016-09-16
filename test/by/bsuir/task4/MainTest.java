@@ -34,7 +34,7 @@ public class MainTest {
     }
 
     private void performTest(int testNumber) {
-        int[] actualIndexes = Main.selectPrime(PASSING_ARRAYS[testNumber]);
+        int[] actualIndexes = PrimeNumbersHelper.selectIndexes(PASSING_ARRAYS[testNumber]);
         assertArrayEquals(EXPECTING_INDEXES[testNumber], actualIndexes);
     }
 }
