@@ -1,6 +1,5 @@
 package by.bsuir.task2;
 
-import by.bsuir.task2.GraphArea;
 import org.junit.Test;
 
 import static org.junit.Assert.assertFalse;

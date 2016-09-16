@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Main {
 
-    private static final int[] array = {-2, 3, 4, 2, 3, 3, 0, 13};
+    private static final int[] ARRAY = {-2, 3, 4, 2, 3, 3, 0, 13};
 
     public static void main(String[] args) {
-        selectPrime(array).forEach(System.out::println);
+        selectPrime(ARRAY).forEach(System.out::println);
     }
 
     private static ArrayList<Integer> selectPrime(int[] array) {
