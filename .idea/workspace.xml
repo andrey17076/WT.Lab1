@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b93c531a-7439-4d9d-abe4-f45157ae7498" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/bsuir/task3/Main.java" afterPath="$PROJECT_DIR$/src/by/bsuir/task3/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/by/bsuir/task3/TangentFunctionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WT.Lab1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +38,20 @@
       <file leaf-file-name="MathFunctionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/by/bsuir/task1/MathFunctionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="417">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TangentFunctionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/by/bsuir/task3/TangentFunctionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +85,7 @@
       <file leaf-file-name="GraphAreaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/by/bsuir/task2/GraphAreaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="297">
               <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding />
             </state>
@@ -89,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bsuir/task3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -104,16 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Area.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/bsuir/task2/Area.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -168,7 +171,10 @@
         <option value="$PROJECT_DIR$/src/by/bsuir/implementation/task3/Main.java" />
         <option value="$PROJECT_DIR$/test/by/bsuir/task1/MathFunctionTest.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/task1/MathFunction.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/task3/TrangentFunctionTest.java" />
         <option value="$PROJECT_DIR$/src/by/bsuir/task3/Main.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/task3/MathFunctionTest.java" />
+        <option value="$PROJECT_DIR$/test/by/bsuir/task3/TangentFunctionTest.java" />
       </list>
     </option>
   </component>
@@ -241,6 +247,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WT.Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WT.Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WT.Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsuir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,6 +402,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="by.bsuir.Test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.bsuir.task3" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
@@ -382,33 +413,7 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="GraphAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="by.bsuir.test.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="WT.Lab1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="by.bsuir.test.task2" />
-      <option name="MAIN_CLASS_NAME" value="by.bsuir.test.task2.GraphAreaTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TangentFunctionTest">
     <configuration default="false" name="by.bsuir.test in WT.Lab1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -493,6 +498,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="WT.Lab1" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TangentFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="by.bsuir.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WT.Lab1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.bsuir.task3" />
+      <option name="MAIN_CLASS_NAME" value="by.bsuir.task3.TangentFunctionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -888,19 +919,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphAreaTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.by.bsuir.test in WT.Lab1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MathFunction" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.by.bsuir.test in WT.Lab1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MathFunction" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TangentFunctionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TangentFunctionTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MathFunction" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.by.bsuir.test in WT.Lab1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphAreaTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MathFunction" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.by.bsuir.test in WT.Lab1" />
       </list>
     </recent_temporary>
   </component>
@@ -921,44 +952,44 @@
       <workItem from="1473963464588" duration="12000" />
       <workItem from="1473963553768" duration="7060000" />
       <workItem from="1473977255961" duration="5130000" />
-      <workItem from="1474012356983" duration="1788000" />
+      <workItem from="1474012356983" duration="6632000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphAreaTest - 2016.09.15 at 23h 31m 34s.xml">
-      <configuration name="GraphAreaTest" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 04m 07s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphAreaTest - 2016.09.15 at 23h 34m 31s.xml">
-      <configuration name="GraphAreaTest" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 04m 14s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphAreaTest - 2016.09.15 at 23h 35m 58s.xml">
-      <configuration name="GraphAreaTest" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 04m 23s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphAreaTest - 2016.09.15 at 23h 36m 15s.xml">
-      <configuration name="GraphAreaTest" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 04m 34s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphAreaTest - 2016.09.15 at 23h 42m 12s.xml">
-      <configuration name="GraphAreaTest" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 04m 51s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="by_bsuir_test_in_WT_Lab1 - 2016.09.15 at 23h 44m 40s.xml">
-      <configuration name="by.bsuir.test in WT.Lab1" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 05m 35s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="by_bsuir_test_in_WT_Lab1 - 2016.09.16 at 00h 06m 54s.xml">
-      <configuration name="by.bsuir.test in WT.Lab1" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 06m 11s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="by_bsuir_test_in_WT_Lab1 - 2016.09.16 at 00h 08m 28s.xml">
-      <configuration name="by.bsuir.test in WT.Lab1" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 15h 43m 11s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="by_bsuir_test_in_WT_Lab1 - 2016.09.16 at 00h 24m 19s.xml">
-      <configuration name="by.bsuir.test in WT.Lab1" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 16h 14m 54s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="by_bsuir_test_in_WT_Lab1 - 2016.09.16 at 00h 26m 33s.xml">
-      <configuration name="by.bsuir.test in WT.Lab1" configurationId="JUnit" />
+    <history-entry file="TangentFunctionTest - 2016.09.16 at 16h 18m 57s.xml">
+      <configuration name="TangentFunctionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26957000" />
+    <option name="totallyTimeSpent" value="31801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -971,7 +1002,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2590,24 +2621,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/task2/GraphAreaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/implementation/task3/DomainSegment.java" />
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/implementation/task1/InputWrapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/task3/TangentFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/task2/Area.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -2624,6 +2639,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/task1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/task3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bsuir/task2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2635,20 +2666,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/bsuir/task1/MathFunctionTest.java">
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/task2/GraphAreaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/task1/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bsuir/task3/TangentFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -2661,11 +2690,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bsuir/task3/Main.java">
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/task3/MathFunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        <state relative-caret-position="-93">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/task1/MathFunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/bsuir/task3/TangentFunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
