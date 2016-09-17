@@ -7,10 +7,14 @@ public class Main {
     public static void main(String[] args) {
         double[][] matrix = Matrix.generate(ARRAY);
         for (double[] line: matrix) {
-            for (double element: line) {
-                System.out.printf("%f ", element);
-            }
-            System.out.printf("\n");
+            printLine(line);
         }
+    }
+
+    private static void printLine(double[] array) {
+        for (double element: array) {
+            System.out.printf("%f ", element);
+        }
+        System.out.printf("\n");
     }
 }
