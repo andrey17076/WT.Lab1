@@ -7,8 +7,8 @@ class ProgrammerBook extends Book {
     private String language;
     private int level;
 
-    ProgrammerBook(String title, String author, int price, String language, int level) {
-        super(title, author, price);
+    ProgrammerBook(String title, String author, int price, int isbn, String language, int level) {
+        super(title, author, price, isbn);
         setLanguage(language);
         setLevel(level);
     }
@@ -48,7 +48,6 @@ class ProgrammerBook extends Book {
 
     @Override
     public String toString() {
-        return "ProgrammerBook{title='" + getTitle() + "'" + ", author='" + getAuthor() + "'" + ", price=" + getPrice() +
-                "language='" + language + "'" + "level=" + level + "}";
+        return "ProgrammerBook{" + super.getFieldsInfo() + "language='" + language + "'" + "level=" + level + "}";
     }
 }

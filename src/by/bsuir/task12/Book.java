@@ -1,16 +1,18 @@
 package by.bsuir.task12;
 
-public class Book {
+public class Book implements Comparable<Book> {
 
+    private static int edition;
     private String title;
     private String author;
     private int price;
-    private static int edition;
+    private int isbn;
 
-    public Book(String title, String author, int price) {
+    public Book(String title, String author, int price, int isbn) {
         setTitle(title);
         setAuthor(author);
         setPrice(price);
+        setIsbn(isbn);
     }
 
     public static int getEdition() {
@@ -45,6 +47,14 @@ public class Book {
         this.price = price;
     }
 
+    public int getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(int isbn) {
+        this.isbn = isbn;
+    }
+
     @Override
     public boolean equals(Object object) {
         if (this == object)
@@ -62,11 +72,20 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{title='" + title + "'" + ", author='" + author + "'" + ", price=" + price + '}';
+        return "Book{" + getFieldsInfo() + '}';
     }
 
     @Override
     public Book clone() {
-        return new Book(title, author, price);
+        return new Book(title, author, price, isbn);
+    }
+
+    @Override
+    public int compareTo(Book book) {
+        return isbn - book.getIsbn();
+    }
+
+    protected String getFieldsInfo() {
+        return "title='" + title + "'" + ", author='" + author + "'" + ", price=" + price + ", isbn=" + isbn;
     }
 }
