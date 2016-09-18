@@ -29,4 +29,11 @@ public class BookTest {
         bookB.setPrice(15);
         assertEquals(bookA, bookB);
     }
+
+    @Test
+    public void testClone() {
+        Book bookA = new Book("Fight Club", "Chuck Palahniuk", 15);
+        Object bookB = bookA.clone();
+        assertEquals(bookA, bookB);
+    }
 }

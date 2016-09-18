@@ -64,4 +64,9 @@ public class Book {
     public String toString() {
         return "Book{title='" + title + "'" + ", author='" + author + "'" + ", price=" + price + '}';
     }
+
+    @Override
+    public Book clone() {
+        return new Book(title, author, price);
+    }
 }
