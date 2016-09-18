@@ -1,47 +1,47 @@
 package by.bsuir.task12;
 
-class Book {
+public class Book {
 
     private String title;
     private String author;
     private int price;
     private static int edition;
 
-    Book(String title, String author, int price) {
+    public Book(String title, String author, int price) {
         setTitle(title);
         setAuthor(author);
         setPrice(price);
     }
 
-    static int getEdition() {
+    public static int getEdition() {
         return edition;
     }
 
-    static void setEdition(int edition) {
+    public static void setEdition(int edition) {
         Book.edition = edition;
     }
 
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    void setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    String getAuthor() {
+    public String getAuthor() {
         return author;
     }
 
-    void setAuthor(String author) {
+    public void setAuthor(String author) {
         this.author = author;
     }
 
-    int getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    void setPrice(int price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
